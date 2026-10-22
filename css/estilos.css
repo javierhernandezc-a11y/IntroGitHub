@@ -1,15 +1,17 @@
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    margin: 0;
-    padding: 0;
+.formulario {
+    background-color: #e3e3e3;
+    padding: 15px;
+    border-radius: 5px;
+    width: 300px;
 }
-.encabezado {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 10px 0;
+input[type=text] {
+    width: 90%;
+    padding: 5px;
+    margin-top: 5px;
 }
-.contenedor {
-    padding: 20px;
+input[type=submit] {
+    background-color: #f5f5dc;
+    padding: 8px 15px;
+    border: 1px solid #ccc;
+    cursor: pointer;
 }
