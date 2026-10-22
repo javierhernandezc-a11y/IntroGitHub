@@ -3,18 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ejercicio 2 Merge</title>
-    <link rel="stylesheet" href="css/estilos.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/estilos.css">
 </head>
 <body>
-    <div class="encabezado">
-        <h1> Formulario de Registro </h1>
-    </div>
-    <div class="contenedor">
-        <form class="formulario">
-            <label>Nombre Completo:</label><br>
-            <input type="text" name="nombre"><br><br>
-            <input type="submit" value="Registrar">
+    <div class="container">
+        <div class="encabezado">
+            <h1> Este es el encabezado </h1>
+        </div>
+        <h2>Por favor llena el formulario</h2>
+        <form class="formulario" action="/pagina_destino.php">
+            <label for="fnombre">Nombre:</label>
+            <input type="text" id="fnombre" name="Nombre"><br><br>
+            <label for="fapellido">Apellido:</label>
+            <input class="f_input" type="text" id="fapellido" name="Apellido">
+            <br><br>
+            <input type="submit" value="Enviar">
         </form>
     </div>
 </body>
